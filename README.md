@@ -15,4 +15,4 @@
 1. Клонируйте репозиторий на ваш компьютер:
 
    ```bash
-   git clone <[URL_репозитория](https://github.com/ChingizSarmanov/portfolio)>
+   git clone https://github.com/ChingizSarmanov/portfolio

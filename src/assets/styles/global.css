@@ -1,0 +1,194 @@
+/* Глобальные стили */
+@import './tailwind.css';  // Подключение настроек Tailwind
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-gray-900 {
+  background-color: #1a1a1a;
+}
+
+.text-green-500 {
+  color: #00FF00;
+}
+
+.text-purple-500 {
+  color: #9b59b6;
+}
+
+.text-blue-400 {
+  color: #3498db;
+}
+
+.text-gray-400 {
+  color: #bdc3c7;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-mono {
+  font-family: 'Courier New', monospace;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.max-w-7xl {
+  max-width: 1280px;
+}
+
+.space-x-2 {
+  margin-right: 0.5rem;
+}
+
+.space-y-4 {
+  margin-top: 1rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.group:hover .group-hover\:text-green-500 {
+  color: #00FF00;
+}
+
+.group:hover .group-hover\:scale-95 {
+  transform: scale(0.95);
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group:hover .group-hover\:scale-105 {
+  transform: scale(1.05);
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.col-span-7 {
+  grid-column: span 7 / span 7;
+}
+
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.h-[400px] {
+  height: 400px;
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, #000000, #1a1a1a);
+}
